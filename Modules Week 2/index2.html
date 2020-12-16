@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>InputandDOM</title>
+  </head>
+  <body>
+
+    <h1>Enter a Store Name, a Product, and Quantity</h1>
+
+    <form>
+
+        <label for="nameInput">Name:</label>
+        <input type="text" id="nameInput" placeholder="Store" />
+
+        <label for="nameInput">Quantity:</label>
+        <input type="text" id="quantityInput" placeholder="#" />
+
+        <label for="nameInput">Product:</label>
+        <input type="text" id="productInput" placeholder="Name" />
+
+        <button id="submit">Submit</button>
+
+    </form>
+
+    <p></p>
+
+    <script type="text/javascript">
+
+  document.getElementById('Submit').addEventListener ('Submit' , getInputs);
+
+    function getInputs(event) {
+      event.preventDefault();
+      let store = document.getElementById('nameInput').value;
+      let product = document.getElementById('productInput').value;
+      let quantity = document.getElementById('quantityInput').value;
+
+      console.log(store, product, quantity);
+
+      let text = `I went to ${store} to buy ${quantity} ${product}`;
+
+      let append = document.querySelector('p');
+      append.innerText = text;
+    }
+</script>
+
+
+
+  </body>
+</html>
