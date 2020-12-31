@@ -1,0 +1,184 @@
+h1{
+    color:rgb(0, 255, 76);
+    
+    background-color: black;
+}
+.navbar {
+    background-color:black;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    
+}
+nav a {
+    text-decoration: none;
+    color:rgb(0, 255, 76);
+    outline-color:white ;
+}
+nav a:hover{
+    color:rgb(253, 255, 253);
+}
+body{
+    background-color:rgb(128, 128, 128);
+}
+
+.jumbotron.jumbotron-fluid2 div.containerTwo div.row div.tvTwo a button.btn.btn-sm.btn-outline-secondary{
+    background: url("https://cdn3.dualshockers.com/wp-content/uploads/2018/11/Girls-und-Panzer-Dream-Tank-Match-DX-00.jpg") ;
+    background-position: left;
+    background-size: 75vh;
+    height: 50vh;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 50vh;
+    width: 35vh;
+}
+
+.jumbotron.jumbotron-fluid2 div.containerTwo div.row div.tvOne a button.btn.btn-sm.btn-outline-secondary{
+    background: url("https://wallpapercave.com/wp/GoW5tTI.jpg") ;
+    background-position: left;
+    background-size: 70vh;
+    height: 50vh;
+    background-repeat: no-repeat;
+    position: relative;
+    left:31vh;
+    width: 35vh;
+
+}
+.jumbotron.jumbotron-fluid2 div.containerTwo div.row div.tvThree a button.btn.btn-sm.btn-outline-secondary{
+    background: url("http://getwallpapers.com/wallpaper/full/3/0/4/1415657-free-happy-tree-friends-wallpaper-1922x1082-ipad.jpg") ;
+    background-position: left;
+    background-size: 85vh;
+    height: 50vh;
+    background-repeat: no-repeat;
+    position: relative;
+    left:5.5vh;
+    width: 35vh;
+}
+
+.containerOne{
+    position: relative;
+    left: 25vh;
+}
+
+.containerTwo{
+    position: relative;
+    left: 25vh;
+}
+
+.containerThree{
+    position: relative;
+    left: 25vh;
+}
+
+
+.jumbotron.jumbotron-fluid1 div.containerOne div.row div.MovOne a button.btn.btn-sm.btn-outline-secondary{
+    background: url("http://d12vb6dvkz909q.cloudfront.net/uploads/galleries/49302/saving-private-ryan_poster4.jpg") ;
+    background-position: left;
+    background-size: 40vh;
+    height: 50vh;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 15vh;
+    width: 35vh;
+}
+
+.jumbotron.jumbotron-fluid1 div.containerOne div.row div.MovTwo a button.btn.btn-sm.btn-outline-secondary{
+    background: url("https://image.tmdb.org/t/p/original/mc5GiK4bYn0rCCTja3iMa4oUWUi.jpg") ;
+    background-position: left;
+    background-size: 35vh;
+    height: 50vh;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 4vh;
+    width: 35vh;
+}
+
+.jumbotron.jumbotron-fluid1 div.containerOne div.row div.MovThree a button.btn.btn-sm.btn-outline-secondary{
+    background: url("https://fanart.tv/fanart/movies/289/movieposter/casablanca-56d7dfd21ea46.jpg") ;
+    background-position: left;
+    background-size: 40vh;
+    height: 50vh;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 5vh;
+    width: 35vh;
+}
+
+.jumbotron.jumbotron-fluid3 div.containerThree div.row div.picksOne a button.btn.btn-sm.btn-outline-secondary{
+    background: url("https://fanart.tv/fanart/movies/1878/movieposter/fear-and-loathing-in-las-vegas-58fb23e748b90.jpg") ;
+    background-position: left;
+    background-size: 40vh;
+    height: 50vh;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 15vh;
+    width: 35vh;
+}
+
+
+.jumbotron.jumbotron-fluid3 div.containerThree div.row div.picksTwo a button.btn.btn-sm.btn-outline-secondary{
+    background: url("http://3.bp.blogspot.com/-gX9wx52hsss/Ud_pf471cvI/AAAAAAAAAjM/m2TQ_t-H-bQ/s1600/reservoir_dogs_1992_8.jpg") ;
+    background-position: left;
+    background-size: 35vh;
+    height: 50vh;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 4vh;
+    width: 35vh;
+}
+
+.jumbotron.jumbotron-fluid3 div.containerThree div.row div.picksThree a button.btn.btn-sm.btn-outline-secondary{
+    background: url("https://www.indiewire.com/wp-content/uploads/2015/02/parks-rec.jpg") ;
+    background-position: left;
+    background-size: 70vh;
+    height: 50vh;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 5vh;
+    width: 35vh;
+
+}
+
+
+.jumbotron.jumbotron-fluid2 div.containerTwo div.row div.tvOne a button.btn.btn-sm.btn-outline-secondary:hover{
+
+        background: black;
+        color: rgb(0, 255, 76);
+}
+.jumbotron.jumbotron-fluid2 div.containerTwo div.row div.tvTwo a button.btn.btn-sm.btn-outline-secondary:hover{
+    background: black;
+    color: rgb(0, 255, 76);
+}
+.jumbotron.jumbotron-fluid2 div.containerTwo div.row div.tvThree a button.btn.btn-sm.btn-outline-secondary:hover{
+    background: black;
+    color: rgb(0, 255, 76);
+}
+
+.jumbotron.jumbotron-fluid1 div.containerOne div.row div.MovOne a button.btn.btn-sm.btn-outline-secondary:hover{
+    background: black;
+    color: rgb(0, 255, 76);
+}
+
+.jumbotron.jumbotron-fluid1 div.containerOne div.row div.MovTwo a button.btn.btn-sm.btn-outline-secondary:hover{
+    background: black;
+    color: rgb(0, 255, 76);
+}
+
+.jumbotron.jumbotron-fluid1 div.containerOne div.row div.MovThree a button.btn.btn-sm.btn-outline-secondary:hover{
+background: black;
+color: rgb(0, 255, 76);
+}
+
+.jumbotron.jumbotron-fluid3 div.containerThree div.row div.picksOne a button.btn.btn-sm.btn-outline-secondary:hover{
+background: black;
+color: rgb(0, 255, 76);
+}
+
+.jumbotron.jumbotron-fluid3 div.containerThree div.row div.picksTwo a button.btn.btn-sm.btn-outline-secondary:hover{
+background: black;
+color: rgb(0, 255, 76);
+}
+
+.jumbotron.jumbotron-fluid3 div.containerThree div.row div.picksThree a button.btn.btn-sm.btn-outline-secondary:hover{
+background: black;
+color: rgb(0, 255, 76);    
+}
